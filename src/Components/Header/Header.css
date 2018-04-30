@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+    background-image: url(/assets/images/nytbackground.jpg);
+    padding-bottom: 75px;
+    padding-top: 75px;
+    color: white;
+}
+
+.title {
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.sub {
+    font-size: 35px;
+    font-family: cursive
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+
+}

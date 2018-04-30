@@ -4,10 +4,12 @@ import "./Header.css";
 
 const Header = () => (
     <div>
-        <h1>New York Times Article Scraper</h1>
-        <h3>Search for and annontate articles of interest!</h3>
-        <Link to="saved">Saved</Link>
-        <Link to="/">Home</Link>
+        <div className="header">
+            <h1 className="title">New York Times Article Scraper</h1>
+            <h3 className="sub">Search for and annontate articles of interest!</h3>
+        </div>
+        <Link className="link" to="/">Home</Link>
+        <Link className="link" to="saved">Saved</Link>        
     </div>
 
 )
